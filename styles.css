@@ -69,23 +69,3 @@ body {
     width: 25px;
     margin: 4px 0;
 }
-
-@media (max-width: 768px) {
-    .navbar-nav {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-nav.active {
-        display: flex;
-    }
-
-    .menu {
-        display: flex;
-    }
-
-    .button {
-        display: none;
-    }
-}
